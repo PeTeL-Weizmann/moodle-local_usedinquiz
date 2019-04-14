@@ -1,8 +1,4 @@
-Used/ Unused Question search module for Moodle (http://moodle.org/) - Copyright (C) 2015 Ray Morris
-Extends the Moodle question bank to find questions which are / are not used in a quiz.
-
-This may be useful when adding questions to a quiz - no need to add questions which are already in the quiz.
-It may also be useful to determine if some questions should be removed or moved, since they aren't being used.
+Display only question bank questions that are used in a specific quiz.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
@@ -12,10 +8,30 @@ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Gen
 http://www.gnu.org/copyleft/gpl.html
 
 Project Page:
-https://github.com/MorrisR2/moodle_local_unusedquestions
+https://github.com/PeTeL-Weizmann/moodle-local_usedinquiz
 
 Installation:
-* http://docs.moodle.org/20/en/Installing_contributed_modules_or_plugins
+* http://docs.moodle.org/31/en/Installing_contributed_modules_or_plugins
 
 Issue tracker:
-* https://github.com/MorrisR2/moodle_local_unusedquestions/issues
+* https://github.com/PeTeL-Weizmann/moodle-local_usedinquiz/issues
+
+Requirements
+------------
+
+Moodle version:  Moodle 3.6+
+
+PHP version: 7.0+
+
+DB version: MySQL 5.6+ / MariaDB 5.5+
+
+License
+-------
+
+GPL v3 - http://www.gnu.org/copyleft/gpl.html
+
+Credits
+-------
+
+Was designed and funded by the [Department of science teaching](https://stwww1.weizmann.ac.il/en/) at the [Weizmann institute of science](http://www.weizmann.ac.il/pages/), israel.
+And developed for the [PeTeL - personalized teaching and learning envirunment](https://stwww1.weizmann.ac.il/petel/) ( [EN](https://stwww1.weizmann.ac.il/en/?page_id=1246) ).
